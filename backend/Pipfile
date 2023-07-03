@@ -1,0 +1,34 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[packages]
+# tools
+pytz = "==2022.1"
+serpy = "==0.3.1"
+unidecode = "==1.3.4"
+python-dateutil = "==2.8.2"
+# django
+Django = "==4.0.4"
+django-environ = "==0.8.1"
+django-storages = "==1.12.3"
+djangorestframework = "==3.13.1"
+django-ratelimit = "==3.0.1"
+django-ipware = "==4.0.2"
+# adapters
+psycopg2 = "==2.9.3"
+celery = "==5.2.6"
+redis = "==4.3.1"
+confluent-kafka = "==1.8.2"
+djangorestframework-simplejwt = "==5.2.0"
+drf-yasg = "*"
+pymemcache = "*"
+django-debug-toolbar = "*"
+
+[dev-packages]
+django-debug-toolbar = "==3.4.0"
+autopep8 = "==1.6.0"
+
+[requires]
+python_version = "3.9.2"

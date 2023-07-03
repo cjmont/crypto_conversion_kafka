@@ -1,0 +1,64 @@
+@charset "ISO-8859-1";
+
+a {
+  text-decoration: underline;
+}
+
+@font-face {
+  font-family: sf_prodisplay_regular;
+  src: url("../fonts/SF-Pro-Display-Regular.otf");
+}
+
+@font-face {
+  font-family: montserrat;
+  src: url("../fonts/Montserrat-Regular.otf");
+}
+
+.content-error {
+  background-color: #f9f9f9;
+  text-align: center;
+  height: 90vh;
+}
+
+.principl-error-img {
+  width: 50%;
+  /* margin-top: 8vh; */
+}
+
+.content-error h1 {
+  font-size: 1.8em;
+  margin-top: 0;
+  font-family: "sf_prodisplay_regular";
+  color: #232323;
+}
+
+.content-error p {
+  font-size: 1.2em;
+  font-family: "sf_prodisplay_regular";
+  color: #232323;
+}
+
+.browsers {
+  width: 300px;
+}
+
+.button-404 {
+  padding: 16px 24px;
+  background-color: blue;
+  color: #fff;
+  font-size: 1.4em;
+  font-family: montserrat;
+  text-decoration: none;
+  border-radius: 40px;
+  display: inline-block;
+}
+
+@media (max-width: 700px) {
+  .principl-error-img {
+    width: 100%;
+  }
+
+  .content-error h1 {
+    font-size: 1.6em;
+  }
+}

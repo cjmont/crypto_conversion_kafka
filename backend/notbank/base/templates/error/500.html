@@ -1,0 +1,27 @@
+{% load i18n static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>500 | Notbank</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="keywords" content="notbank" />
+  <meta name="author" content="Notbank" />
+
+  <link rel="stylesheet" href="{% static 'base/errors/css/404.css' %}" />
+</head>
+
+<body style="margin: 0; height: 100vh">
+  <div class="content-error">
+    <img src="{% static 'base/errors/img/404-error.png' %}" class="principl-error-img" alt="500" />
+    <h1>Oops! the page you're looking for cannot be found</h1>
+    <p>Visit</p>
+    <a href="https://www.notbank.app" class="button-404">www.notbank.app</a>
+  </div>
+</body>
+
+</html>

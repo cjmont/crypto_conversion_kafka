@@ -1,0 +1,32 @@
+{
+  "name": "platform",
+  "version": "1.0.0",
+  "description": "",
+  "main": "commitlint.config.js",
+  "private": true,
+  "devDependencies": {
+    "@commitlint/cli": "17.0.0",
+    "@commitlint/config-conventional": "17.0.0",
+    "husky": "8.0.1",
+    "prettier": "2.6.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@162.213.255.33:41453/crypto/notbank-platform.git"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "keywords": [],
+  "author": "",
+  "engines": {
+    "npm": ">=8.5.5",
+    "node": "16.15.0"
+  },
+  "engineStrict": true
+}
